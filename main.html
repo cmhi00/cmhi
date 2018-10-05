@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="김채민">
+  <meta name="description" content="4가지 테마의 감각적인 인테리어사이트">
+  <title>Chae Min's 인테리어</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Stylish">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+<header>
+  <div class="center">
+    <h1>
+      <a href="#">Chae Min's<img src="img/logo.png" alt="logo"></a>
+    </h1>
+
+    <button class="login">Login</button>
+    <div class="user-info">
+      <span><b>고객</b>님 반갑습니다.</span><br>
+      <button id="btn-logout">logout</button>
+    </div>
+    <div class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="">회사소개<i class="icon icon-building"></i></a>
+          <ul>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">오시는길</a></li>
+            <li><a href="#">연혁</a></li>
+            <li><a href="#">서비스소개</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">커뮤니티<i class="icon icon-commuity"></i></a>
+          <ul>
+            <li><a href="#">시공사례</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">인테리어Tip</a></li>
+            <li><a href="#">인테리어사전</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">고객센터<i class="icon icon-support"></i></a>
+          <ul>
+            <li><a href="#">1:1문의</a></li>
+            <li><a href="#">무료상담</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">A/S안내 및 신청</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">전문가들<i class="icon icon-people"></i></a>
+          <ul>
+            <li><a href="#">전문가리스트</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">멤버십<i class="icon icon-membership-card"></i></a>
+          <ul>
+            <li><a href="#">가입</a></li>
+            <li><a href="#">혜택</a></li>
+            <li><a href="#">등급안내</a></li>
+            <li><a href="#">카드 신청/변경</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">매장찾기<i class="icon icon-maps-and-flags"></i></a>
+        </li>
+        <li>
+        <a href="">셀프인테리어<i class="icon icon-self-interior"></i></a>
+        </li>
+      </ul>
+      <button class="search"><i class="fas fa-search"></i></button>
+      <form action="#" class="search-form">
+        <input type="text">
+        <button class="search_tri">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</header>
+    <!-- 본문 -->
+<section>
+  <article class="main-slide">
+    <ul class="top_img">
+      <li>
+        <div class="swiper-container slide1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/모던1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/모던2.jpg" alt=""></div>
+          </div>
+          <span>Modern</span>
+        </div>
+      </li>
+      <li>
+        <div class="swiper-container slide2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/앤틱1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/앤틱3.jpg" alt=""></div>
+          </div>
+          <span>Antique</span>
+        </div>
+      </li>
+      <li>
+        <div class="swiper-container slide3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/로맨틱1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/로맨틱2.jpg" alt=""></div>
+          </div>
+          <span>Romantic</span>
+        </div>
+      </li>
+      <li>
+        <div class="swiper-container slide4">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/네추럴1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/네추럴2.jpg" alt=""></div>
+          </div>
+          <span>Natural</span>
+        </div>
+      </li>
+    </ul>
+  </article>
+
+  <article class="about">
+    <h2>Chae Min's DIY  인테리어를 찾아주셔서 감사합니다.</h2>
+    <p>저희 인테리어는 스스로 직접 생활 공간을 보다 쾌적하게 만들고 수리할 수 있는 인테리어 사이트입니다.<br>
+      고객스타일에 맞춰 인테리어 디자인을 해드릴 수 있고, 미리 시공된 사례를 토대로<br> 시공해 드리고도 있습니다. 항상 처음부터 끝까지 고객입장에서 최우선으로 생각하고 시공하며<br> 정직함으로 고객여러분의 신뢰를 최우선으로 생각하는 인테리어 회사가 되겠습니다.
+      <br>높은퀄리티와 경제적으로 시공을 진행하며 꼼꼼하고<br>
+      깔끔한 시공을 하고 작은공간이라도 사용할 수 있도록 시공을 도와드리고 있습니다.<br>
+      퀄리티는 높이고 가격은 확 줄이고 고객분들 입장을 생각하면서 최선을 다해<br>주거,상업,사무공간을 보다 효율적으로 설계하겠습니다.<br>
+      믿고 맡겨주신다면 저희 Chae Min's DIY 에서 최고의 공간으로 만들어 드리겠습니다.<br>
+      <br><strong>감사합니다.</strong></p>
+  </article>
+
+  <article class="construction_back">
+    <div class="construction_content">시공사례</div>
+    <div class="construction">
+      <ul>
+        <li>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="img/시공사례1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/시공사례2.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/시공사례3.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/시공사례4.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/시공사례5.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/시공사례6.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/시공사례7.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/시공사례8.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/시공사례9.jpg" alt=""></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"><i class="fas fa-chevron-right"></i></div>
+            <div class="swiper-button-prev"><i class="fas fa-chevron-left"></i></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="middle_slide">
+    <div class="middle_slide_content">공지사항 및 이벤트</div>
+    <div class="left col-lg-6">
+        <div class="notice">
+          <h3>공지사항</h3>
+          <ul>
+            <li><a href="#">공지사항입니다.</a><span>08.06.11</span></li>
+            <li><a href="#">공지사항입니다.</a><span>08.06.10</span></li>
+            <li><a href="#">공지사항입니다.</a><span>08.06.09</span></li>
+          </ul>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="membership">
+          <h3>멤버십</h3>
+          <ul>
+            <li><a href="#">멤버십입니다.</a></li>
+          </ul>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="coupon">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><i class="fas fa-memory"></i><span>쿠폰사용</spna></div>
+              <div class="swiper-slide"><i class="fas fa-address-card"></i><span>멤버십등록</span></div>
+              <div class="swiper-slide"><i class="fas fa-barcode"></i><span>바코드</span></div>
+              <div class="swiper-slide"><i class="fas fa-memory"></i><span>쿠폰사용</spna></div>
+              <div class="swiper-slide"><i class="fas fa-address-card"></i><span>멤버십등록</span></div>
+              <div class="swiper-slide"><i class="fas fa-barcode"></i><span>바코드</span></div>
+              <div class="swiper-slide"><i class="fas fa-memory"></i><span>쿠폰사용</spna></div>
+              <div class="swiper-slide"><i class="fas fa-address-card"></i><span>멤버십등록</span></div>
+              <div class="swiper-slide"><i class="fas fa-barcode"></i><span>바코드</span></div>
+            </div>
+            <div class="left-bg"></div>
+            <div class="right-bg"></div>
+            <div class="swiper-button-prev"><i class="fas fa-chevron-left"></i></div>
+            <div class="swiper-button-next"><i class="fas fa-chevron-right"></i></div>
+          </div>
+        </div>
+      </div>
+    <div class="right col-lg-6">
+      <a href="#">
+        <div class="event">
+          <img src="img/이벤트이미지.jpg" alt="">
+          <div class="event-message">
+            <p>[온라인] 내가 원하는 집 만들고 상품타가자~가즈아~<br> 2018 06. 05 ~ 2018.06.21</p>
+            <button class="ing">진행중</button>
+          </div>
+        </div>
+      </a>
+    </div>
+  </article>
+  <div class="comm_area support">
+      <div>
+        <h2>고객지원</h2>
+        <ul class="ico">
+          <li>
+            <a href="javascript:void(0);" onClick="goToPage('/emailQna/emailQnaInsertForm.do','B00031')">
+            <p class="thumb_box"><img src="img/이메일문의.png" alt="이메일 문의 등록"></p>
+            <span>이메일 문의</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" onClick="goToPage('/reserve/selectCounsel.do','B00052')">
+            <p class="thumb_box"><img src="img/전화상담예약.png" alt="전화상담 예약"></p>
+            <span>전화상담 예약</span></a>
+            </li>
+          <li>
+            <a href="javascript:void(0);" onClick="goToPage('/reserve/selectRemote.do','B00053')"><p class="thumb_box"><img src="img/원격상담예약.png" alt="원격상담 예약"></p>
+            <span>원격상담 예약</span></a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" onClick="goToPage('/reserve/selectEquip.do','B00033')"><p class="thumb_box"><img src="img/설치_철거예약.png" alt="설치/철거 예약"></p>
+            <span>설치/철거 예약</span></a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" onClick="goToPage('/reserve/selectShopReservation.do','B00051')"><p class="thumb_box"><img src="img/소모품구입방문예약.png" alt="소모품 구입 방문 예약"></p>
+            <span>소모품 구입 방문 예약</span></a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" onClick="goToPage('/reserve/selectBusinessTrip.do','B00054')"><p class="thumb_box"><img src="img/엔지니어출장예약.png" alt="엔지니어출장 예약"></p>
+            <span>엔지니어 출장 예약</span></a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" onClick="goToPage('/reserve/selectVisit.do','B00055')"><p class="thumb_box"><img src="img/센터방문예약.png" alt="센터방문 예약"></p>
+            <span>센터방문 예약</span></a>
+          </li>
+          </ul>
+      </div>
+    </div>
+</section>
+
+  <!-- 하단 -->
+  <footer>
+    <ul>
+      <li><a href="#">홈</a></li>
+      <li><a href="#">개인정보취급방침</a></li>
+      <li><a href="#">이용약관</a></li>
+      <li><a href="#">전문가문의</a></li>
+    </ul>
+
+    <div class="sns-group">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
+
+    <address>
+      <p>서울특별시 채민구 채민로 611 채민빌딩 5층</p>
+      <p>T 02-000-0000 / F 070-000-0000 / 사업자등록번호 123-12-123456</p>
+      <p>copyright ⓒ 2018 chae min. All right Reserved.</p>
+    </address>
+  </footer>
+
+  <!-- 팝업영역 -->
+  <div id="img_popup">
+    <button class="imgspopup"><i class="fas fa-times"></i></button>
+    <img src="img/시공사례1.jpg" alt="시공사례1">
+  </div>
+  <!-- 로그인팝업 -->
+  <div class="login-form">
+    <h1>LOGIN</h1>
+    <form action="">
+      <i class="fas fa-times-circle"></i>
+      <label for="id">아이디</label>
+      <input type="text" placeholder="아이디" id="id">
+      <!-- <p class="message">아이디를 입력하세요.</p> -->
+      <label for="password">비밀번호</label>
+      <input type="password" placeholder="비밀번호" id="password">
+      <!-- <p class="message">비밀번호를 입력하세요.</p> -->
+
+      <!-- type을 submit=>button으로 변경(검사후 submit처리하기위함) -->
+      <button id="btn-submit" type="button">로그인</button>
+      <button id="btn-submit" type="button">회원가입</button>
+      <p class="find-info">
+        <a href="#">아이디찾기</a> | <a href="#">비밀번호찾기</a>
+      </p>
+      <div class="login_sns">
+        <span>아래 계정으로 로그인</span>
+        <img src="../인테리어포트폴리오/img/facebook.png" alt="">
+        <img src="../인테리어포트폴리오/img/naver.png" alt="">
+        <img src="../인테리어포트폴리오/img/twiter.png" alt="">
+        <img src="../인테리어포트폴리오/img/kakaotalk.png" alt="">
+      </div>
+    </form>
+  </div>
+  <div class="popup-bg"></div>
+
+</body>
+</html>

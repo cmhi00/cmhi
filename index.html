@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chae Min's intro</title>
+  <link rel="stylesheet" href="css/intro.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(function(){
+      $("#toggle--text").click(function(){
+        var chk = $(this).is(":checked");//.attr('checked');
+        if(chk){
+          console.log('체크됨');
+          $('img').attr('src','img/on1_전구.png').addClass('on');
+          $('body').addClass('on');
+          $('strong').addClass('msg');
+          move=setTimeout(function(){
+            document.location.href='main.html';
+          },2000);
+        }else{
+          console.log('체크안됨');
+          $('body').removeClass('on');
+          $('img').attr('src','img/off1_전구.png').removeClass();
+          $('strong').removeClass();
+          clearTimeout(move);
+        }
+      });
+    })
+  </script>
+</head>
+<body>
+  <h1>Chae Min's Interior</h1>
+  <img src="img/off1_전구.png" alt="">
+  <div class="toggle toggle--text">
+    <input type="checkbox" id="toggle--text" class="toggle--checkbox">
+    <label class="toggle--btn" for="toggle--text" data-label-on="on"  data-label-off="off"></label>
+  </div>
+  <strong>2초후에 메인페이지로 이동합니다.</strong>
+</body>
+</html>
